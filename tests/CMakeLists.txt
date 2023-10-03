@@ -3,7 +3,7 @@ project(vector_tests)
 
 set(CMAKE_C_STANDARD 23)
 
-add_subdirectory(../lib subdirectory/lib)
+add_subdirectory(../gtest subdirectory/lib)
 
 include_directories(../include)
 include_directories(../src)
